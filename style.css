@@ -1,0 +1,131 @@
+:root {
+    font-family: Poppins, Inter, Avenir, Helvetica, Arial, sans-serif;
+ 
+    /* color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424; */
+  
+    font-synthesis: none;
+    text-rendering: geometricPrecision ;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    padding: 22px 22.65px 36px 36px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-grid {
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 26px;
+}
+
+.hero-container > h1 {
+    margin-left: 36px;
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.hero-container > p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+    margin-left: 36px;
+    margin-top: 16px;
+    margin-right: 40%
+}
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-left: 36px;
+    margin-top: 49px;
+    gap: 20px;
+}
+
+.card-photo {
+    border-radius: 9px;
+    height: 235px;
+} 
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.card-container > p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+    margin-top: 8px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.card-status {
+    display: flex;
+    position: absolute;
+    width: 61px;
+    height: 20px;
+    top: 6px;
+    left: 6px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    align-content: center;
+    justify-content: center;
+}
+
+.card-status > h3 {
+    font-weight: 501;
+    font-size: 10.24px;
+    line-height: 110%;
+    color: #222222;
+    margin-top: 5px;
+}
+
+.card-rating-star {
+    height: 14px;
+}
+
+.card-rating {
+    display: flex;
+    align-items: center;
+}
+
+.card-rating > span{
+    margin-left: 3px;
+}
